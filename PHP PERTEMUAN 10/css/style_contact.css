@@ -1,0 +1,108 @@
+body {
+    /* property */
+    color: black;
+    font-family: Helvetica, Arial , sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 13px;    
+    }
+}
+/* end body */
+
+/* start debug */
+.bg-blue {
+    background-color: rgba(79, 204, 146, 0.589);
+}
+.bg-red {
+    background-color: rgb(184, 24, 24);
+}
+/* end debug */
+
+/* start container */
+.container {
+    margin: 5px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* end container */
+
+/* start logo */
+    .logo {
+        text-align: center;
+    }
+/* end logo */
+
+/* start anchor */
+#contact a, #contact p {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+/* end anchor */
+
+/* start testimonial */
+.testimonial {
+    border-left: 4px solid #dfe2e5;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* end testimonial */
+
+/* start form */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #888888;
+    font-weight: 300;
+}
+input[type="submit"],
+.button {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0% 90%);
+    border: 1px solid rgba(27 ,31, 35, 0.2);
+    border-radius: 4px;
+    color: #000000 !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* end form */
+
+/* start contact form */
+.contact-form div {
+    margin: 20px 0;
+}
+/* end contact form */
+
+/* start menu sekunder */
+.menu-sekunder{
+    background-color: rgb(0, 115, 255);
+    border-bottom: 1px solid #efeaea;
+    border-top: 1px solid #eaecef;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 10px 0;
+}
+/* end menu sekunder */
