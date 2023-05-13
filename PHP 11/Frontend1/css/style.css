@@ -1,0 +1,35 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-caption p {
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0)
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.col-md-4 img {
+    margin-top: 5px;
+    width: 100%
+}
+
+#footer {
+    padding: 25px 0px;
+    background-color: rgb(21, 21, 21);
+}
+#footer h3, address {
+    color: aliceblue;
+}
+
+.nav li a {
+    color: aliceblue;
+    
+}
+.nav li a:hover{
+    color: rgb(172, 172, 172);
+
+}
